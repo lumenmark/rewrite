@@ -2,6 +2,17 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Git Workflow Rules
+
+**CRITICAL - MUST FOLLOW:**
+1. **NEVER commit without explicit user command** - Only create commits when the user explicitly asks you to commit or check in code
+2. **NO AI/Claude references in commit messages** - Commit messages must NOT include:
+   - References to Claude, AI, or being AI-generated
+   - "🤖 Generated with Claude Code" footer
+   - "Co-Authored-By: Claude" attribution
+   - Any mention of AI assistance
+3. Keep commit messages professional and focused on the actual changes made
+
 ## Project Overview
 
 This is a monorepo for an AI-powered text rewriting system consisting of:
